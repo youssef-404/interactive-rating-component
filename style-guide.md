@@ -11,21 +11,23 @@ The designs were created to the following widths:
 
 ### Primary
 
-Dark cyan: hsl(185, 75%, 39%)
-Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
+- Orange: hsl(25, 97%, 53%)
 
 ### Neutral
 
-Dark gray: hsl(0, 0%, 59%)
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (name and stats): 18px
+- Font size (paragraph): 15px
 
 ### Font
 
-- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
 - Weights: 400, 700

@@ -6,45 +6,45 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Profile card component</title>
+  <title>Frontend Mentor | Interactive rating component</title>
 
 </head>
 <body>
-  <main>
-    <div class="container">
-      <div class="banner"></div>
-      
-      <img class="vector" src="images/image-victor.jpg" alt="Victor">
 
-      <div class="content">
-        <p class="name">Victor Crest <span>26</span></p>
-        <p class="place"> London</p>
-        <hr>
-        <div class="about">
-          <div class="data">
-            <h3>80K </h3>
-            <p> Followers</p>
-          </div>
-
-          <div class="data">
-            <h3>803K </h3>
-            <p> Likes</p>
-          </div>
-
-          <div class="data">
-            <h3>1.4K </h3>
-            <p> Photos</p>
-          </div>
-
-        </div>
-      </div>
-
+  <div class="container">
+    <span id="page1">
+    <div class="star"><img src="images/icon-star.svg" alt="star"></div>
+    <h2>How did we do?</h2>
+    <p>Please let us know how we did with yoursupport <br>
+       request. All feedback is appreciated to help us <br>
+       improve our offering!</p>
+    <div id="rating">
+      <div class="cercle" id="1">1</div>
+      <div class="cercle" id="2">2</div>
+      <div class="cercle" id="3">3</div>
+      <div class="cercle" id="4">4</div>
+      <div class="cercle" id="5">5</div>
     </div>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> . 
-      Coded by <a href="https://www.frontendmentor.io/profile/youssef-404">youssef-404</a> .
-    </div>
-  </main>
+    <input type="submit" value="submit">
+  </span>
+  <span id="page2">
+  <span id="page2Container">
+    <div class="recive"><img src="images/illustration-thank-you.svg" alt=""></div>
+    <p class="scoreMsg">You selected  <span class="score"></span> out of 5</p>
+    <h2>Thank you!</h2>
+    <p>We appreciate you taking the time to give a rating. <br>
+       If you ever need more support, don’t hesitate to  <br>
+       get in touch!</p>
+  </span>
+</span>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/youssef-404" target="_blank">youssef-404</a>.
+  </div>
 </body>
 </html>
+
+<script src="app.js"></script>
